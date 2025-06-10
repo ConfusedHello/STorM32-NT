@@ -1,0 +1,78 @@
+(footprint "SJ_2S-NO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Small solder jumper with no paste layer so it will open after reflow.")
+	(property "Reference" "REF**"
+		(at -0.908 -1.143 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c5f44a27-ace0-4265-85d1-be17ffab88bd")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SJ_2S-NO"
+		(at -0.908 1.651 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5569675e-dfa0-4a2c-b41a-4d185c203515")
+		(effects
+			(font
+				(size 0.373888 0.373888)
+				(thickness 0.032512)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aee6103-eea2-4578-8343-47c470b39532")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "947a217b-b920-47b2-b4fc-df99ac04b5ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.381 0)
+		(size 0.508 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "9c4a90d0-358a-4a2f-a626-f06fe5125849")
+	)
+	(pad "2" smd roundrect
+		(at 0.381 0)
+		(size 0.508 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "cbd85f5d-aef1-4936-9e13-59332d8e8363")
+	)
+	(embedded_fonts no)
+)

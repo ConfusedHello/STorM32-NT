@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STorM32 NT imu v211 mini-mpu9250")(type "KiCad")(uri "$(KIPRJMOD)/STorM32 NT imu v211 mini-mpu9250.pretty")(options "")(descr ""))
+)

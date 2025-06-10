@@ -1,0 +1,190 @@
+(footprint "SOD110-R"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD110 Reflow soldering Philips SC01_Mounting_1996.pdf")
+	(property "Reference" "REF**"
+		(at -1.524 -1.143 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b77aaa7e-bd71-4f73-8215-710611adf5e2")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SOD110-R"
+		(at -1.524 2.413 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d76007a-de55-4608-88de-6b36287d7a9c")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bf7e6ea-4ceb-4e59-a719-31f05b6f1892")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aee2047-d713-4312-b5e3-0b7f6f613873")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.762 -0.635)
+		(end 0.762 -0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58134601-23c1-480c-ba7a-0fefe808b05c")
+	)
+	(fp_line
+		(start -0.762 0.635)
+		(end 0.762 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5adc5bc-f501-47f1-b674-063dd0756a29")
+	)
+	(fp_line
+		(start -0.381 -0.381)
+		(end -0.381 0.381)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea8d9776-35ce-44d7-8abc-774c40437b96")
+	)
+	(fp_line
+		(start -0.381 0.381)
+		(end -0.254 0.381)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57223144-4eb8-4323-9651-5afde0b46e5a")
+	)
+	(fp_line
+		(start -0.254 -0.381)
+		(end -0.381 -0.381)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea339c8a-966c-4cae-8f69-d94630a2c320")
+	)
+	(fp_line
+		(start -0.254 0.381)
+		(end -0.254 -0.381)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12c80621-f791-4fd1-9d89-cf7bd8064ebd")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end 1.05 -0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ab13a0d-ee0e-4740-919b-352e13121692")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39ae765c-1e97-4dda-89b5-33ded8816519")
+	)
+	(fp_line
+		(start 1.05 -0.5)
+		(end 1.05 0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08f5ebf0-7362-44ba-a37e-31ece5857c1a")
+	)
+	(fp_line
+		(start 1.05 0.5)
+		(end -1 0.5)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0adcd6ac-255b-4e63-9a63-41e064c3a890")
+	)
+	(fp_poly
+		(pts
+			(xy -0.65 0.45) (xy -0.4 0.45) (xy -0.4 -0.45) (xy -0.65 -0.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "21dd25c0-8c35-4b61-a020-c742a1f9f9cd")
+	)
+	(pad "A" smd roundrect
+		(at 0.95 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15875)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "f07e4454-173f-4d35-b083-9bd41f345940")
+	)
+	(pad "C" smd roundrect
+		(at -0.95 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15875)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "10ac3d08-887c-4f2d-ab04-2fb6cad33998")
+	)
+	(embedded_fonts no)
+)

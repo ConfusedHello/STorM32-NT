@@ -1,0 +1,10588 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9324c07e-2cf2-408a-9d64-56cf12707d2c")
+	(paper "User" 298.45 217.322)
+	(lib_symbols
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.016 3.556 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.3V_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "3.3V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:5V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -1.016 3.556 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5V_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:?M04B-SRSS-TBS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 2.54 -0.762 0)
+				(effects
+					(font
+						(size 1.524 1.2954)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -0.762 1.397 0)
+				(effects
+					(font
+						(size 1.524 1.2954)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SM04B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Disconnectable Crimp style connector, 1.0mm pitch\n4 contacts"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "?M04B-SRSS-TBS_1_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "?M04B-SRSS-TBS_2_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "?M04B-SRSS-TBS_3_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "?M04B-SRSS-TBS_4_0"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:A4L-LOC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FRAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FRAME\n\nDIN A4, landscape with location and doc. field"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "A4L-LOC_1_0"
+				(polyline
+					(pts
+						(xy 0 179.07) (xy 260.35 179.07) (xy 260.35 0) (xy 0 0) (xy 0 179.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 134.3025) (xy 3.81 134.3025)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 89.535) (xy 3.81 89.535)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 44.7675) (xy 3.81 44.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 175.26) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.3917 179.07) (xy 43.3917 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 43.3917 3.81) (xy 43.3917 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 86.7833 179.07) (xy 86.7833 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 86.7833 3.81) (xy 86.7833 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 130.175 179.07) (xy 130.175 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 130.175 3.81) (xy 130.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 161.29 24.13) (xy 215.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 161.29 3.81) (xy 161.29 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 173.5667 179.07) (xy 173.5667 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 173.5667 3.81) (xy 173.5667 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 24.13) (xy 256.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 19.05) (xy 215.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 19.05) (xy 256.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 13.97) (xy 215.265 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 13.97) (xy 256.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 8.89) (xy 215.265 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 215.265 8.89) (xy 215.265 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 216.9583 179.07) (xy 216.9583 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 216.9583 3.81) (xy 216.9583 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 246.38 8.89) (xy 215.265 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 246.38 8.89) (xy 256.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 246.38 3.81) (xy 246.38 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 175.26) (xy 3.81 175.26)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 175.26) (xy 256.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 134.3025) (xy 260.35 134.3025)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 89.535) (xy 260.35 89.535)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 44.7675) (xy 260.35 44.7675)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 19.05) (xy 256.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 13.97) (xy 256.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 8.89) (xy 256.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 256.54 3.81) (xy 256.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at 1.905 156.6863 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 111.9188 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 1.905 67.1513 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 1.905 22.3838 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 21.6958 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 21.6958 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 65.0875 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 65.0875 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 108.4792 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 108.4792 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 151.8708 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 151.8708 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 195.2625 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 195.2625 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "Sheet:"
+					(at 216.916 4.953 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${PROJECTNAME}"
+					(at 217.17 15.24 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${CURRENT_DATE}"
+					(at 217.17 10.16 0)
+					(effects
+						(font
+							(size 2.286 2.286)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "6"
+					(at 238.6542 177.165 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 238.6542 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "A"
+					(at 258.445 156.6863 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 258.445 111.9188 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 258.445 67.1513 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 258.445 22.3838 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0402_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0805_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:IMU3000QFN-24-0.4MIL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:QFN-24-3X3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IMU3000QFN-24-0.4MIL_1_0"
+				(polyline
+					(pts
+						(xy -10.16 15.24) (xy -10.16 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -12.7) (xy 12.7 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 15.24) (xy -10.16 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -12.7) (xy 12.7 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "VLOG"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "CPOUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "REGOUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "GND@11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "GND@18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "CLKIN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "CLKOUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "AUX_DA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "AUX_CL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:LEDCHIPLED_0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.556 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.715 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:CHIPLED_0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED\n\nOSRAM:\n- CHIPLED\nLG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974\nLS Q976, LO Q976, LY Q976\nLO Q996\n- Hyper CHIPLED\nLW Q18S\nLB Q993, LB Q99A, LB R99A\n- SideLED\nLS A670, LO A670, LY A670, LG A670, LP A670\nLB A673, LV A673, LT A673, LW A673\nLH A674\nLY A675\nLS A676, LA A676, LO A676, LY A676, LW A676\nLS A679, LY A679, LG A679\n-  Hyper Micro SIDELED®\nLS Y876, LA Y876, LO Y876, LY Y876\nLT Y87S\n- SmartLED\nLW L88C, LW L88S\nLB L89C, LB L89S, LG L890\nLS L89K, LO L89K, LY L89K\nLS L896, LA L896, LO L896, LY L896\n- TOPLED\nLS T670, LO T670, LY T670, LG T670, LP T670\nLSG T670, LSP T670, LSY T670, LOP T670, LYG T670\nLG T671, LOG T671, LSG T671\nLB T673, LV T673, LT T673, LW T673\nLH T674\nLS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676\nLB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C\nLS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C\nLW T67C\nLS T679, LY T679, LG T679\nLS T770, LO T770, LY T770, LG T770, LP T770\nLB T773, LV T773, LT T773, LW T773\nLH T774\nLS E675, LA E675, LY E675, LS T675\nLS T776, LA T776, LO T776, LY T776, LB T776\nLHGB T686\nLT T68C, LB T68C\n- Hyper Mini TOPLED®\nLB M676\n- Mini TOPLED Santana®\nLG M470\nLS M47K, LO M47K, LY M47K\n\nSource: http://www.osram.convergy.de\n\nLUXEON:\n- LUMILED®\nLXK2-PW12-R00, LXK2-PW12-S00, LXK2-PW14-U00, LXK2-PW14-V00\nLXK2-PM12-R00, LXK2-PM12-S00, LXK2-PM14-U00\nLXK2-PE12-Q00, LXK2-PE12-R00, LXK2-PE12-S00, LXK2-PE14-T00, LXK2-PE14-U00\nLXK2-PB12-K00, LXK2-PB12-L00, LXK2-PB12-M00, LXK2-PB14-N00, LXK2-PB14-P00, LXK2-PB14-Q00\nLXK2-PR12-L00, LXK2-PR12-M00, LXK2-PR14-Q00, LXK2-PR14-R00\nLXK2-PD12-Q00, LXK2-PD12-R00, LXK2-PD12-S00\nLXK2-PH12-R00, LXK2-PH12-S00\nLXK2-PL12-P00, LXK2-PL12-Q00, LXK2-PL12-R00\n\nSource: www.luxeon.com\n\nKINGBRIGHT:\n\nKA-3528ASYC\nSource: www.kingbright.com"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LEDCHIPLED_0603_1_0"
+				(polyline
+					(pts
+						(xy -3.429 2.159) (xy -3.048 1.27) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 3.302) (xy -2.921 2.413) (xy -2.413 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:R-EU_R0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R0402_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:RESONATORSMD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 2.54 1.016 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:RESONATOR-SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resonator Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in caps. CSTCE10M0G55 and CSTCE20M0V53. Footprint has been reviewed closely but hasn't been tested yet."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESONATORSMD_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.032) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.048) (xy -3.302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.048) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.032) (xy -2.54 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.048) (xy -2.54 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -0.381 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.524) (xy -0.381 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy 0.381 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.032) (xy 1.778 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.048) (xy 1.778 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.048) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -2.032) (xy 2.54 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -3.048) (xy 2.54 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:SOLDERJUMPERNO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SJ_2S-NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper Standard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPERNO_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -1.27)
+					(mid -1.651 0)
+					(end -0.381 1.27)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.381 1.27)
+					(mid 1.651 0)
+					(end 0.381 -1.27)
+					(stroke
+						(width 0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.651 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "STM32F101/103 36pad VFQPFN36"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_1_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_2_0"
+				(polyline
+					(pts
+						(xy -2.54 12.7) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 12.7) (xy -2.54 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 10.16 0)
+					(length 5.08)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_3_0"
+				(polyline
+					(pts
+						(xy -2.54 10.16) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -12.7) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_4_0"
+				(polyline
+					(pts
+						(xy -5.08 12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 12.7) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_5_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "PD0/OSC<="
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "PD1/OSC=>"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_6_0"
+				(polyline
+					(pts
+						(xy -5.08 17.78) (xy -5.08 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -17.78) (xy 5.08 -17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 17.78) (xy -5.08 17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 15.24 0)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 10.16 0)
+					(length 5.08)
+					(name "VDD_2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "VDD_3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -10.16 0)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -15.24 0)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "STM32F10XTXU6_7_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input inverted
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "NRST"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "STorM32 NT imu v211 mini-mpu9250-eagle-import:V_REG_TPS76433SOT23-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -5.08 11.684 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -4.826 -10.922 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SOT23-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage Regulator Older TI part. LDO 150mA regulator. No output by-pass cap option. See V_REG_LDO for a better part."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "V_REG_TPS76433SOT23-5_1_0"
+				(polyline
+					(pts
+						(xy -5.08 10.16) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy -5.08 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "STorM32 NT IMU module"
+		(exclude_from_sim no)
+		(at 180.34 177.8 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "08bdce5c-784c-45a0-aceb-af2b3874c83b")
+	)
+	(text "Schaltplan v2.1 mpu9250"
+		(exclude_from_sim no)
+		(at 180.34 182.88 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "37e14ce7-175c-4701-b6f3-ec6a74d782a7")
+	)
+	(text "MISO"
+		(exclude_from_sim no)
+		(at 106.68 48.26 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b8e200c-85b0-45be-aa85-c8a2f3ad4341")
+	)
+	(text "MOSI"
+		(exclude_from_sim no)
+		(at 106.68 50.8 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "55d5dc51-7f37-4cb5-ae7c-7909e6950f92")
+	)
+	(text "STorM32 NT"
+		(exclude_from_sim no)
+		(at 195.58 27.94 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "6477d9ca-bab4-40fa-8492-55d960d8c651")
+	)
+	(text "1/2"
+		(exclude_from_sim no)
+		(at 248.92 193.04 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cc3f9f1-29aa-48ff-a6a5-0b8d2bb3642f")
+	)
+	(text "(c) www.olliw.eu"
+		(exclude_from_sim no)
+		(at 180.34 193.04 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "a60ec4c6-b7b5-4378-b015-7f9f3a13be0c")
+	)
+	(text "dummy"
+		(exclude_from_sim no)
+		(at 99.06 119.38 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc397822-abfd-4d4e-b479-8e04bfeb514b")
+	)
+	(text "BOOT1"
+		(exclude_from_sim no)
+		(at 101.6 99.06 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1ffd2e7-5484-4863-ba94-f821232fb2bb")
+	)
+	(text "SCK"
+		(exclude_from_sim no)
+		(at 106.68 45.72 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1a4fd62-80ea-4d91-9d2a-b6b91ac4b366")
+	)
+	(text "This is a open source hardware project, under the terms\nof the TAPR Open Hardware License, http://www.tapr.org/ohl.html.\nThe project web page is http://www.olliw.eu/."
+		(exclude_from_sim no)
+		(at 178.435 173.355 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1bf47cb-1eab-4b26-8afe-6bb95569a8bd")
+	)
+	(text "27. Dez. 2017"
+		(exclude_from_sim no)
+		(at 180.34 187.96 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "d33cd8a9-99e6-4203-aa67-6e8c139e6bef")
+	)
+	(text "IMU Module - MPU 9250"
+		(exclude_from_sim no)
+		(at 195.58 30.48 0)
+		(effects
+			(font
+				(size 1.9304 1.6408)
+			)
+			(justify left top)
+		)
+		(uuid "ec0d54d8-7fd6-4c8c-802a-edab238074b4")
+	)
+	(junction
+		(at 45.72 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19e8a1f8-5f78-461e-ad56-34f5ffc54b20")
+	)
+	(junction
+		(at 50.8 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23001bdf-b59d-452e-9a6b-6bfba69aae2a")
+	)
+	(junction
+		(at 104.14 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2acb364e-3059-41dc-bbc5-e6db85ed316c")
+	)
+	(junction
+		(at 76.2 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d33cf2b-7bc8-48ed-b143-d9c17e6508d6")
+	)
+	(junction
+		(at 53.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "323a8eb1-064b-4497-9333-8a52c4bd4de5")
+	)
+	(junction
+		(at 208.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c526498-7497-4a42-a9fb-adad071d171d")
+	)
+	(junction
+		(at 76.2 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fcf3820-9d4b-4a0e-9dec-649945b5b984")
+	)
+	(junction
+		(at 53.34 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b3099d7-e9c4-41e4-a26b-e5901e3c3bab")
+	)
+	(junction
+		(at 48.26 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f26421-e1e1-4467-a446-b246417ecb19")
+	)
+	(junction
+		(at 38.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e6725c9-3284-4419-bcc0-8e977e4cfca2")
+	)
+	(junction
+		(at 208.28 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95793bd8-739b-4380-b069-9f1881e9b588")
+	)
+	(junction
+		(at 76.2 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc403fd-3dd0-4a81-a051-a5c39fa25b44")
+	)
+	(junction
+		(at 48.26 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ca4b2d-f251-4a78-b3bd-6bac4bef14db")
+	)
+	(junction
+		(at 259.08 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab47180f-ad56-4462-bda2-04853e11633d")
+	)
+	(junction
+		(at 231.14 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0658329-fc56-468c-a5bb-08387526e55c")
+	)
+	(junction
+		(at 53.34 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0042631-12c6-44e8-bbff-a2d7827c2cd7")
+	)
+	(junction
+		(at 53.34 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb56445f-34a4-4fa4-9ad5-d31e0003df3a")
+	)
+	(junction
+		(at 124.46 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd46f6cd-da0e-467c-bf29-795c931f3e2a")
+	)
+	(junction
+		(at 53.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb4f997-6a45-48d7-8a08-8917a2cc53be")
+	)
+	(junction
+		(at 38.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e659136c-e3bf-49b9-a1c3-c20a23e524fd")
+	)
+	(junction
+		(at 76.2 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a60b9f-79de-4aea-a092-3185607f9ece")
+	)
+	(junction
+		(at 40.64 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8aad2de-431e-40df-8e5f-d4f75daacdd9")
+	)
+	(junction
+		(at 251.46 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f284b0-7872-4f91-b1c8-56b44bd80594")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 132.08 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03554e2c-fa4e-4878-b30d-04dfe44a5eb5")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05fc5f92-d8b5-4bb5-91bc-9d26b575cc2d")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 53.34 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07b96aff-4325-4c0f-869c-5a23ca03dfc0")
+	)
+	(wire
+		(pts
+			(xy 172.72 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07f3a3fa-4d71-45be-b45c-ad1649ccc8e6")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 53.34 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09bc029b-c2cd-4d17-83d2-8c744162c6b6")
+	)
+	(wire
+		(pts
+			(xy 55.88 68.58) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a537423-3af5-4252-9d6e-c44afce27609")
+	)
+	(wire
+		(pts
+			(xy 76.2 154.94) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a8ab317-7008-4978-831b-a95a8c9f82a9")
+	)
+	(wire
+		(pts
+			(xy 55.88 88.9) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c5d19f2-9eb6-4fcc-948b-5fc62a4363af")
+	)
+	(wire
+		(pts
+			(xy 45.72 175.26) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d2537cd-adb8-4a2a-985e-66d70a574c44")
+	)
+	(wire
+		(pts
+			(xy 124.46 109.22) (xy 124.46 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "101e5819-074f-4919-82a2-06def26beeb4")
+	)
+	(wire
+		(pts
+			(xy 76.2 157.48) (xy 45.72 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1181fdda-02b9-4372-9f86-5e627bdccf82")
+	)
+	(wire
+		(pts
+			(xy 53.34 167.64) (xy 53.34 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "132e6cd5-81d1-4710-b9e9-49707bbda35a")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "17124592-e294-47b9-9f64-bb71b902fe55")
+	)
+	(wire
+		(pts
+			(xy 246.38 127) (xy 248.92 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "18efdf9b-cfc5-45de-8d87-edb2a112cf6b")
+	)
+	(wire
+		(pts
+			(xy 124.46 157.48) (xy 139.7 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "195d6652-6d1e-49da-9dc2-bf546ddf3a83")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1b7a01a5-fb3f-4a39-8e7e-594a04e01a4e")
+	)
+	(wire
+		(pts
+			(xy 48.26 63.5) (xy 38.1 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c7b108a-fa39-4931-9571-e9e4c453e11c")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 254 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ed040ad-105b-43b8-9d8f-321447053286")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1fd47bb7-52e6-4da1-8ca8-c92cd67ae248")
+	)
+	(wire
+		(pts
+			(xy 38.1 86.36) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "206b1de6-6712-49f8-a067-14d0130e5eb4")
+	)
+	(wire
+		(pts
+			(xy 78.74 157.48) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21271aef-42f6-46aa-8d13-06367152f526")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "215f85a6-d5b5-48fe-8a18-2621105fca2f")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2277bfc1-0a9c-47f8-8f96-29a8da4ff849")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "227957ea-6518-4a76-a276-7a0d09bd2e39")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 104.14 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "274b4e14-66bf-484d-bc1d-f6c68ed72f62")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a9ee2af-53f9-4cc6-b976-43295a077306")
+	)
+	(wire
+		(pts
+			(xy 106.68 175.26) (xy 139.7 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2cb3310b-af27-41f1-9d44-4b1c4093bfeb")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2cc02b73-2a94-4e34-9066-5457f0754a65")
+	)
+	(wire
+		(pts
+			(xy 233.68 53.34) (xy 231.14 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2fe9f507-c7f9-4aec-bee9-1f688c974294")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "31af1484-9644-4002-bbce-94a226dd6b64")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35ac787e-9a58-4159-a57c-12e77640572e")
+	)
+	(wire
+		(pts
+			(xy 76.2 152.4) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "37b7e705-f419-4efc-8781-c9788d88ef49")
+	)
+	(wire
+		(pts
+			(xy 53.34 63.5) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "380e1f4a-63df-4571-8c14-26167e13602c")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "389118ee-af25-4845-8409-cac791d6103f")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 154.94 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "397ee462-a7fb-4d68-9c36-a62eec9b3226")
+	)
+	(wire
+		(pts
+			(xy 50.8 127) (xy 40.64 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3de283a8-b626-4b8c-b274-b51944771b5e")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 40.64 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "404c3bb1-872b-4589-8a2d-b20a866b650f")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 139.7 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40655493-1226-4b68-b208-e1c8b46c5f38")
+	)
+	(wire
+		(pts
+			(xy 109.22 152.4) (xy 109.22 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "406bfd17-9216-48ce-ac30-753d96c250ce")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40c29de3-2cb6-467b-9539-2bd3d9bc283c")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 33.02 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "417c95ce-71ca-4f6a-9ca9-ea30f8915f36")
+	)
+	(wire
+		(pts
+			(xy 76.2 154.94) (xy 35.56 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "430d0192-e64f-4707-8a6a-6740a45149ad")
+	)
+	(wire
+		(pts
+			(xy 55.88 111.76) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "476ee43e-b75c-4a1b-9501-14a28f930de6")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a6393c1-67c6-4a67-9263-03be41774b19")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b0671c1-f10d-48dd-844d-b51279e2f0e9")
+	)
+	(wire
+		(pts
+			(xy 99.06 35.56) (xy 104.14 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4bac5d8d-0bfe-44fb-be54-2beb4a232a26")
+	)
+	(wire
+		(pts
+			(xy 99.06 50.8) (xy 134.62 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "517a4e5f-ce53-4487-b97f-9ce5f976c35b")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "51c467cc-7ca8-4e24-9f01-634a9b934265")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52d4a507-076f-43c2-9931-00eba2671c9f")
+	)
+	(wire
+		(pts
+			(xy 35.56 101.6) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "545589e7-dfc7-4791-b8d6-05cc28a8976c")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57c69129-42e3-4651-8114-2a0cf0dfb541")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 33.02 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58da859a-561d-4945-815a-6d8ef83f8567")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58f6790a-517c-490a-af92-2bf8c9a5014b")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 236.22 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5986644b-ce04-4019-93ff-2f760bb81a71")
+	)
+	(wire
+		(pts
+			(xy 35.56 33.02) (xy 35.56 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a2affaf-8166-4bfb-8915-d1caa64ff581")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ad18f54-3286-4be9-90af-326800fcd38b")
+	)
+	(wire
+		(pts
+			(xy 124.46 139.7) (xy 124.46 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5dd9d35e-fcac-4c05-be7e-c27040526ba9")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 259.08 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5e7cf9e9-460b-4ec6-97b8-1767c285b6f5")
+	)
+	(wire
+		(pts
+			(xy 53.34 45.72) (xy 53.34 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f3d680d-3814-4465-9876-c649e50e90f8")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f8739bb-33a0-4d1c-95f1-f13e18339d12")
+	)
+	(wire
+		(pts
+			(xy 99.06 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60c168e6-708b-4f89-a8fe-acdef6d903e9")
+	)
+	(wire
+		(pts
+			(xy 99.06 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64dd4322-4f56-48db-9ea9-f388200f2728")
+	)
+	(wire
+		(pts
+			(xy 53.34 33.02) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "66b995f2-1ed7-4490-9e85-736e8940a6aa")
+	)
+	(wire
+		(pts
+			(xy 124.46 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "68c16bdd-104d-4d71-9b50-c21dc699a52b")
+	)
+	(wire
+		(pts
+			(xy 208.28 71.12) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6cdc6163-0a1b-42ef-adc9-2fb2c94b2f13")
+	)
+	(wire
+		(pts
+			(xy 35.56 177.8) (xy 45.72 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71e22f05-cc6d-4ba5-b6fb-2ad2104ece37")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "741cea9c-4bba-4e47-8281-d218eb52960d")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76e2bc73-671a-407b-9a3d-8f16c5bd5ae6")
+	)
+	(wire
+		(pts
+			(xy 45.72 157.48) (xy 45.72 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a6e57f6-eb4f-45f6-b50d-fbff4faee2f4")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a779e4f-edba-4b96-9dd1-860123e4e2e1")
+	)
+	(wire
+		(pts
+			(xy 78.74 162.56) (xy 76.2 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7cfedf8d-7e78-4f59-9c41-e2261c66d629")
+	)
+	(wire
+		(pts
+			(xy 137.16 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f00cc24-2c75-41a4-8596-d2e578b457f7")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 248.92 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8144e243-e45b-43ff-975d-f0f4eec44f6b")
+	)
+	(wire
+		(pts
+			(xy 53.34 93.98) (xy 55.88 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "87f02d6a-a2b7-470b-94e6-c36376a1fc96")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "89bcfc4c-e40d-41a2-8069-2325e55b96a3")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a123060-ed83-4424-a2db-61dffbaa8616")
+	)
+	(wire
+		(pts
+			(xy 254 53.34) (xy 254 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c527d56-4e7b-43c9-bad2-8da71c617da1")
+	)
+	(wire
+		(pts
+			(xy 53.34 63.5) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8fa57758-f206-449f-8bc0-4854b412d200")
+	)
+	(wire
+		(pts
+			(xy 251.46 63.5) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "907ad039-81eb-43e1-b0d3-33c41b21ebe6")
+	)
+	(wire
+		(pts
+			(xy 40.64 33.02) (xy 35.56 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90be7d8f-9f8e-4401-916d-47177d6052c4")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "937ab1ba-c132-4bf8-9903-8a8cb6b2f09d")
+	)
+	(wire
+		(pts
+			(xy 231.14 53.34) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94e5728a-2efa-4c73-9768-69b16afb43df")
+	)
+	(wire
+		(pts
+			(xy 78.74 177.8) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96a1b7ac-2f24-46d8-8381-9169ec7ec712")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "977f98eb-602f-46b4-a635-d0d581f222b9")
+	)
+	(wire
+		(pts
+			(xy 256.54 106.68) (xy 259.08 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9b32364b-5eaf-4db3-88ca-9e528246d5ea")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9c558080-d691-4378-a3da-5da2f14883d4")
+	)
+	(wire
+		(pts
+			(xy 76.2 162.56) (xy 76.2 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ddce5dc-d265-48df-ba88-647ab5569be5")
+	)
+	(wire
+		(pts
+			(xy 259.08 58.42) (xy 259.08 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a03e6329-6bc6-4fdc-a3b8-ec71f3f408ac")
+	)
+	(wire
+		(pts
+			(xy 40.64 127) (xy 40.64 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a226d4b1-f794-4c5f-b204-4731ce789ff8")
+	)
+	(wire
+		(pts
+			(xy 76.2 177.8) (xy 76.2 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a46246ab-951c-467e-8f59-5c759bef457c")
+	)
+	(wire
+		(pts
+			(xy 256.54 127) (xy 259.08 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a47a7901-b21a-487b-98e7-78bc523b4503")
+	)
+	(wire
+		(pts
+			(xy 226.06 101.6) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a90e477f-ff7b-47b0-99c9-fff334b28b11")
+	)
+	(wire
+		(pts
+			(xy 106.68 154.94) (xy 109.22 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a995e449-d988-4299-8bf0-3e77a5416fa5")
+	)
+	(wire
+		(pts
+			(xy 53.34 177.8) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a9e2357e-08d6-4f91-b9da-589bf38e46a1")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab962218-651d-4c61-acea-75d15a999194")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 104.14 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae075bc4-7766-4a01-9e9c-994204eef46c")
+	)
+	(wire
+		(pts
+			(xy 78.74 154.94) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae94e84d-7787-451c-949a-d981b1a3b36a")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b12df5bd-4c7b-4089-9d29-d2bdd5c23c87")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b259063c-eeb8-4ea1-9875-2410d7d2c748")
+	)
+	(wire
+		(pts
+			(xy 259.08 127) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2f39d41-6f0b-4b40-b6ff-fe135eca0481")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc0778d1-0aa6-475e-99fd-627bde4ac9b9")
+	)
+	(wire
+		(pts
+			(xy 40.64 106.68) (xy 40.64 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "be8ed58c-bfb6-4d38-b623-f1f7c5b3173f")
+	)
+	(wire
+		(pts
+			(xy 76.2 175.26) (xy 76.2 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bf83f13d-5e99-4663-be0f-c47afd600aca")
+	)
+	(wire
+		(pts
+			(xy 78.74 175.26) (xy 76.2 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0018e44-2e32-472d-b98c-f74a3e07e9f4")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 134.62 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c1276d86-f15e-4609-b967-76686a617eb7")
+	)
+	(wire
+		(pts
+			(xy 121.92 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c28ed925-1dc3-4ffa-a835-b2a005b84dae")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c29d5da5-0a45-41cf-b408-eaebd7984ce5")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 124.46 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c9278306-9ec0-45de-8f5a-6797ab19c842")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 154.94 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "caf10366-f5e8-4545-93b9-433c2c66a6af")
+	)
+	(wire
+		(pts
+			(xy 124.46 157.48) (xy 124.46 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb85742b-a105-42fd-a062-9579fb628d99")
+	)
+	(wire
+		(pts
+			(xy 55.88 48.26) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf46fd35-0063-4f5b-8721-cd4b27e97a64")
+	)
+	(wire
+		(pts
+			(xy 106.68 177.8) (xy 139.7 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0087038-f994-4573-a05c-5dbe2d3da5a5")
+	)
+	(wire
+		(pts
+			(xy 53.34 53.34) (xy 55.88 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d28a458c-8774-4443-9e84-9df9b5d28146")
+	)
+	(wire
+		(pts
+			(xy 254 58.42) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d5f3bcec-69e0-4133-b661-982edf36cc91")
+	)
+	(wire
+		(pts
+			(xy 40.64 129.54) (xy 40.64 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d6d25cad-4bf6-4318-a967-5ac85bed2ae0")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 53.34 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d6e34083-1f04-403b-96c8-91da3ead839d")
+	)
+	(wire
+		(pts
+			(xy 48.26 81.28) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d883034b-981d-4dd7-9574-a5978cb8096a")
+	)
+	(wire
+		(pts
+			(xy 162.56 58.42) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d9f7a77d-428a-4fbe-bc05-14d7c55ce1c7")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd28c6ee-850f-4cd4-971b-6315fc22f4a7")
+	)
+	(wire
+		(pts
+			(xy 106.68 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dddaad96-1c74-4e27-9fef-eecd8f0e32a1")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dee5c7e8-224f-4e1e-8457-b331f3e4a43c")
+	)
+	(wire
+		(pts
+			(xy 50.8 124.46) (xy 50.8 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dffc3e0d-8600-496c-b3f7-ca5699e9165c")
+	)
+	(wire
+		(pts
+			(xy 45.72 177.8) (xy 53.34 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e070c3ff-66dd-45c8-bff8-06f8b475199c")
+	)
+	(wire
+		(pts
+			(xy 259.08 71.12) (xy 259.08 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0d8e71b-6099-427c-b746-c4dda8ddd3ba")
+	)
+	(wire
+		(pts
+			(xy 78.74 172.72) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e28f085d-59f9-49ae-866b-8278c4be39c3")
+	)
+	(wire
+		(pts
+			(xy 38.1 60.96) (xy 38.1 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e38cc436-59ce-4a50-9d59-477136a976b6")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e4f0758d-109d-49c6-9ca7-2bdab17cb546")
+	)
+	(wire
+		(pts
+			(xy 35.56 175.26) (xy 35.56 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e554f457-c8b0-47f7-b80b-50601b27b2da")
+	)
+	(wire
+		(pts
+			(xy 259.08 60.96) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e6b624f4-e311-4ba3-a5ce-6cbb0dbb5872")
+	)
+	(wire
+		(pts
+			(xy 172.72 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e7cb43c7-f7e0-43e9-8351-f6431b49c2df")
+	)
+	(wire
+		(pts
+			(xy 259.08 106.68) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e94576cc-8438-4fa5-8048-35642ec47e1c")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea74643b-1f56-457b-86e0-f197a122251c")
+	)
+	(wire
+		(pts
+			(xy 236.22 106.68) (xy 226.06 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb1f48a2-469c-442b-9d3f-14ecef863a60")
+	)
+	(wire
+		(pts
+			(xy 106.68 172.72) (xy 116.84 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebd80230-9527-4b81-85e8-b82448f05990")
+	)
+	(wire
+		(pts
+			(xy 78.74 165.1) (xy 53.34 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eea5fc2f-1336-4856-8bc8-4da90e95a20e")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4a87ede-63e4-4e08-b924-568bf8206d3c")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f705948b-8208-4e8d-82f2-f43b5014c106")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9d0f893-ecb0-4cd0-ae8b-e466e322fcf3")
+	)
+	(wire
+		(pts
+			(xy 48.26 83.82) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fa1f745e-b062-4e13-8e51-e29f0acacad3")
+	)
+	(wire
+		(pts
+			(xy 35.56 167.64) (xy 35.56 154.94)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "faa99cbc-8bec-43bc-880a-7c63d83439ee")
+	)
+	(wire
+		(pts
+			(xy 48.26 73.66) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fc707dba-63cd-408a-8d5d-08f3087d0758")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 137.16 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd1c25c2-9236-41c0-806e-c00663b52557")
+	)
+	(wire
+		(pts
+			(xy 53.34 175.26) (xy 53.34 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ffbb674e-6d4a-4900-8fa3-9a6e0c9764d4")
+	)
+	(label "T1CH1"
+		(at 101.6 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "03f14015-8720-4e08-9e77-9d12ea404b60")
+	)
+	(label "TX"
+		(at 154.94 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "051e5b43-57cf-438d-aa8f-16da0a75bf71")
+	)
+	(label "RX"
+		(at 154.94 60.96 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0790027c-75c7-4d08-b226-2e96f520fe2c")
+	)
+	(label "SDO"
+		(at 68.58 172.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a12a7f8-7938-4201-940a-34ebfc50fd75")
+	)
+	(label "INT"
+		(at 132.08 93.98 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "201c676f-4cde-46f8-be04-cde29e38ab95")
+	)
+	(label "LED"
+		(at 129.54 38.1 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "26fe2522-6672-4fd2-9875-1c3c6c4a28a2")
+	)
+	(label "CANRX"
+		(at 101.6 71.12 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "36cf9995-faed-4bf8-a4d5-0713767ca1d8")
+	)
+	(label "SDI"
+		(at 129.54 50.8 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "39b125c4-ad17-4a11-a248-b464b71c241a")
+	)
+	(label "INT"
+		(at 111.76 172.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "58ed668e-2333-49ed-b3b6-8c27f3d273c6")
+	)
+	(label "3.3V"
+		(at 228.6 106.68 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "679a616b-a30b-4016-be46-bc623b1c00b8")
+	)
+	(label "CANTX"
+		(at 154.94 109.22 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d1c55f9-606d-4b8e-9732-b26648ee122b")
+	)
+	(label "SWCLK"
+		(at 106.68 78.74 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "838d4671-d781-4c74-8b79-8ad215dc5d5c")
+	)
+	(label "CS"
+		(at 134.62 157.48 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "88059050-3467-424d-8398-44487dd93466")
+	)
+	(label "CANTX"
+		(at 101.6 73.66 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9736cb55-8eec-4eed-9c36-b3458dd0096e")
+	)
+	(label "CANRX"
+		(at 154.94 106.68 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b34f2da-2142-4205-809c-91dfab642d4a")
+	)
+	(label "SWDIO"
+		(at 106.68 76.2 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e6078d6-7302-499c-a30e-abf57e2be352")
+	)
+	(label "RX"
+		(at 129.54 68.58 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae2c138f-854d-4485-8f61-a55d2f866dc1")
+	)
+	(label "TX"
+		(at 129.54 66.04 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "be867d0f-c69f-4945-ba94-5ba7c7c8ae7e")
+	)
+	(label "SDI"
+		(at 134.62 177.8 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c32f206a-bf39-409b-812f-940bdcf00aa4")
+	)
+	(label "ADC1"
+		(at 101.6 35.56 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "c448f8bb-7f27-4207-86bd-954d5f28a367")
+	)
+	(label "SCK"
+		(at 129.54 45.72 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1210bff-43a5-40e4-a640-07e9c32016e7")
+	)
+	(label "CS"
+		(at 129.54 40.64 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "df294e6e-e7dd-4cd9-ba90-0581d469ff6e")
+	)
+	(label "SCK"
+		(at 134.62 175.26 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb541d1e-0de0-4a11-9a7a-35d801c5ba77")
+	)
+	(label "LED"
+		(at 228.6 127 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed3b3352-e2fe-4cd8-888c-957c33407d5b")
+	)
+	(label "T1CH1"
+		(at 154.94 104.14 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1344312-141e-4bae-9ae7-98c7b2e08774")
+	)
+	(label "SDO"
+		(at 129.54 48.26 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1356d68-b2d4-4b89-9b5f-113ac6bc43d2")
+	)
+	(label "ADC1"
+		(at 154.94 101.6 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbcb95c1-533b-4701-9eaa-3f54f163e5d1")
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:R-EU_R0402")
+		(at 241.3 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "004655c4-254a-4bab-bbee-cede8a2141f1")
+		(property "Reference" "R2"
+			(at 237.49 105.1814 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 237.49 109.982 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:R0402"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff871ca-0d0f-43fd-97a8-21c1e1fcda5d")
+		)
+		(pin "2"
+			(uuid "8484adb9-4a25-49b7-8bc0-2965687bcd6b")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0603")
+		(at 259.08 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c79622-cf4a-4f30-9ede-01d08e16f1da")
+		(property "Reference" "C2"
+			(at 260.604 63.119 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 260.604 68.199 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0603"
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a268b20-a544-4caf-b758-8f75a4611095")
+		)
+		(pin "2"
+			(uuid "8103c747-fac4-44a3-a897-d5df10718f2b")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 259.08 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f114ba9-8bbf-4048-97a5-d021226706cb")
+		(property "Reference" "#GND7"
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 134.62 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c575bcff-a4a3-4b61-9bbc-66c5c308d31c")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 226.06 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "172ed2cb-34ed-4d91-ae34-a99d84a98b29")
+		(property "Reference" "#P+1"
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 225.044 98.044 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c43079f1-9815-483a-bad3-01ea87dee70c")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 66.04 78.74 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a35dbda-aa50-4938-b998-8f580fd84f3c")
+		(property "Reference" "IC1"
+			(at 60.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 60.96 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "eb30de0b-17cf-4b24-ab49-27d0dfa951fa")
+		)
+		(pin "5"
+			(uuid "9ea4d196-e04f-43bd-abf1-5ffd4b2050b9")
+		)
+		(pin "25"
+			(uuid "3ca4e1ed-0bb5-4af4-a1e8-b3688da70072")
+		)
+		(pin "13"
+			(uuid "5e969db4-1484-4cce-9163-7f7c68806932")
+		)
+		(pin "11"
+			(uuid "39413cd7-d8ef-4a31-9603-8642f8a8a50d")
+		)
+		(pin "23"
+			(uuid "aa852570-81b9-44aa-916b-8cce96ba3753")
+		)
+		(pin "30"
+			(uuid "bb44f6a3-bf09-4bad-8270-f8f7d16c492b")
+		)
+		(pin "1"
+			(uuid "3f09fc0b-4ec9-4128-afd1-ed9c77ae9281")
+		)
+		(pin "18"
+			(uuid "e8ee002e-9191-4e23-b751-a60cdb660b61")
+		)
+		(pin "16"
+			(uuid "2ed7bb9b-5cab-405f-aff5-eb5909b3571f")
+		)
+		(pin "8"
+			(uuid "dac91f6a-b54c-44e7-8c5b-cc167dd99bdb")
+		)
+		(pin "33"
+			(uuid "1ac6a166-ccfb-4e12-80b0-06293596bfc4")
+		)
+		(pin "2"
+			(uuid "4272c5ee-9373-4d60-995b-032b506fa357")
+		)
+		(pin "19"
+			(uuid "c682e6ae-8f2f-4358-9695-d3842c433425")
+		)
+		(pin "21"
+			(uuid "0f7b2305-7b06-4103-bec8-b8be8b458b04")
+		)
+		(pin "27"
+			(uuid "2e71d75f-90ba-4b71-ac83-ac9c85a92ff7")
+		)
+		(pin "12"
+			(uuid "4231b215-240b-4833-8ea6-a501791bceb6")
+		)
+		(pin "24"
+			(uuid "4d1228bb-2e2b-40ae-a4a0-714dee0ceba1")
+		)
+		(pin "10"
+			(uuid "21325bcd-0fe9-47d7-8751-c414ed1f2756")
+		)
+		(pin "14"
+			(uuid "21b142a7-bbaf-4672-aabd-0a8796ec4f07")
+		)
+		(pin "20"
+			(uuid "240a486d-cda8-4848-b3ad-3ffad7d95783")
+		)
+		(pin "28"
+			(uuid "5c36020c-3e62-493b-9f72-867e3c5ce63f")
+		)
+		(pin "17"
+			(uuid "3cb9e10d-f81c-42b0-b94b-e9493b3e4f68")
+		)
+		(pin "34"
+			(uuid "57c1c321-9ac0-45fd-ae3d-c5ae9e52e83a")
+		)
+		(pin "22"
+			(uuid "7cfe0d34-44d1-4ee0-be3a-08934935a9aa")
+		)
+		(pin "29"
+			(uuid "e301a3db-142d-4988-90f9-c6e9101f71e8")
+		)
+		(pin "7"
+			(uuid "0b458adc-6034-4725-85ae-30280c16049c")
+		)
+		(pin "9"
+			(uuid "d368907d-dcc0-4cca-aee3-a3019dd8a984")
+		)
+		(pin "15"
+			(uuid "bfe55840-eb9c-4f41-b5d6-1218c1910a51")
+		)
+		(pin "31"
+			(uuid "509588ad-848f-4f4a-bf1b-adc51afb1f61")
+		)
+		(pin "32"
+			(uuid "2f6e79fd-876d-47ab-96cb-183e058e0952")
+		)
+		(pin "3"
+			(uuid "a4878ef2-887d-4727-a05d-febadb7e6d7a")
+		)
+		(pin "4"
+			(uuid "a92889f6-7564-40cc-9a4e-b82d13907af1")
+		)
+		(pin "35"
+			(uuid "b14c0e7c-7a4d-4922-a2df-5de74ae69b88")
+		)
+		(pin "26"
+			(uuid "f0d17959-ca16-43e9-b9b5-1564c964bf5e")
+		)
+		(pin "36"
+			(uuid "339846a3-1f28-490f-a067-61c8ff2c5e31")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 139.7 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ff1dd39-ffe0-49c5-a199-81007b2c8b6b")
+		(property "Reference" "#GND4"
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a02287ed-8949-454d-9199-32cd48bef7d4")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 91.44 73.66 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "222b30f5-fe3b-4b5a-919f-f39dcd100ff5")
+		(property "Reference" "IC1"
+			(at 88.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "ab5e653c-6ced-4410-9172-2aded69acb7c")
+		)
+		(pin "25"
+			(uuid "b630c576-502d-49af-a59c-fc2182bb365f")
+		)
+		(pin "8"
+			(uuid "cf22ebf3-1cce-4bc9-94f2-8f484c665901")
+		)
+		(pin "28"
+			(uuid "73267651-7623-4a13-9453-1bc4a173f51d")
+		)
+		(pin "11"
+			(uuid "13fba8ba-93a5-43a8-b4ae-1db56759e480")
+		)
+		(pin "15"
+			(uuid "c98a7d5c-2163-4eab-89e3-7c6d2d0e2d4a")
+		)
+		(pin "21"
+			(uuid "05a8be43-fb5f-4e0d-a19b-db443b6c4be9")
+		)
+		(pin "20"
+			(uuid "8c29e576-a3f3-46de-be06-de8b504e7794")
+		)
+		(pin "5"
+			(uuid "a21a1778-7298-4134-b86d-de4b354f2a3e")
+		)
+		(pin "6"
+			(uuid "7c0d0721-7465-4e7a-9fb1-2dc15d564cdc")
+		)
+		(pin "22"
+			(uuid "b24a8e9a-eb3a-4ca3-957f-ac5fe9012657")
+		)
+		(pin "24"
+			(uuid "e237799c-1005-4683-bd19-3ba53d122f9a")
+		)
+		(pin "29"
+			(uuid "9b34570c-9a77-4369-bd7f-b23612af7016")
+		)
+		(pin "7"
+			(uuid "e4a45d86-97f1-4e53-8278-9baa93dd4665")
+		)
+		(pin "9"
+			(uuid "bfde5c27-97bc-47d5-8286-33cffdec98b3")
+		)
+		(pin "10"
+			(uuid "a5b71c86-e5b5-439f-9f96-fe098bb2e3ab")
+		)
+		(pin "12"
+			(uuid "2e844f49-19f5-40ca-8b32-77e692aa8b71")
+		)
+		(pin "13"
+			(uuid "f54015af-4f58-4623-829f-0baf730c529f")
+		)
+		(pin "14"
+			(uuid "3525fd4d-0906-4c50-9add-4037822eb6c1")
+		)
+		(pin "17"
+			(uuid "73e3185b-ccc4-4616-b28f-a4d3c54f2429")
+		)
+		(pin "16"
+			(uuid "eda98a0f-0c45-497b-a7b5-6892e36b8f68")
+		)
+		(pin "19"
+			(uuid "6d116bf7-0269-46ae-9286-7ae2ca8e1340")
+		)
+		(pin "33"
+			(uuid "756a08b3-a7e2-4cdb-b5b4-c31b484ec85d")
+		)
+		(pin "31"
+			(uuid "307ded41-5b62-4b55-bd9d-17d44e2cee2a")
+		)
+		(pin "32"
+			(uuid "dc5c67a3-0887-434c-822e-2f91691444d6")
+		)
+		(pin "2"
+			(uuid "963bea02-9f33-4685-9688-0a1110013515")
+		)
+		(pin "1"
+			(uuid "e4825e36-526f-48c5-b66d-e9703136222f")
+		)
+		(pin "34"
+			(uuid "651bcf57-b57e-43c5-81d6-037e302b6ff3")
+		)
+		(pin "3"
+			(uuid "77249705-4029-4bf2-b293-868a9712f307")
+		)
+		(pin "18"
+			(uuid "5ca0f527-8943-4e02-bf7d-2e0f465dfc06")
+		)
+		(pin "36"
+			(uuid "96bf94b3-05c1-4b2b-b63e-0e8ba6d215ae")
+		)
+		(pin "26"
+			(uuid "2e08ad10-0e2e-4c25-9ad9-f04dca07d43b")
+		)
+		(pin "35"
+			(uuid "16fc92d1-dabb-4b7e-8d0d-3bcccb7fdc5b")
+		)
+		(pin "30"
+			(uuid "a197c05e-6fe5-44cf-a1f1-6541417c062b")
+		)
+		(pin "27"
+			(uuid "252852e2-18d5-44fe-b436-a3089b67f03e")
+		)
+		(pin "4"
+			(uuid "ddeef5f6-cb22-4ea8-977c-f3c863966a1c")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 139.7 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27724675-b831-4ca3-9981-3e02b80ec1a8")
+		(property "Reference" "#GND10"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d34a988-1136-48cd-8857-c98bd97d2ac0")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:SOLDERJUMPERNO")
+		(at 132.08 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34bcb2fb-3851-4e7a-88f4-5cd3cbd36102")
+		(property "Reference" "SJ2"
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IMU-ID2"
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SJ_2S-NO"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "171868c9-2f2e-4340-b3dc-4cf3385003b8")
+		)
+		(pin "2"
+			(uuid "1f527802-c77c-40b0-8be1-febd5a2f3084")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "SJ2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:5V")
+		(at 208.28 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "367fb869-885b-4bf2-917c-9e6181305069")
+		(property "Reference" "#U$3"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 207.264 52.324 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7589ccb6-0d29-4a04-b1c0-592645de2953")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#U$3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:?M04B-SRSS-TBS")
+		(at 172.72 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d2a3263-f90c-40be-98d9-92a1387f0500")
+		(property "Reference" "NT0"
+			(at 175.26 64.262 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NT"
+			(at 171.958 62.103 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SM04B-SRSS-TB"
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3194c2c0-6eb6-4330-863a-8d342fddce68")
+		)
+		(pin "3"
+			(uuid "ae1e10c5-414c-477f-8516-8da410c52827")
+		)
+		(pin "1"
+			(uuid "62ec2678-68ae-425c-bf94-922e635f0c5e")
+		)
+		(pin "2"
+			(uuid "a71f96d5-3acc-4623-b954-532a15b0bbbb")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "NT0")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 35.56 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "459c5ad5-572d-4e1f-9145-fd4e5db2cb02")
+		(property "Reference" "#P+5"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 34.544 95.504 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1b3c4df-e840-4df4-8766-d590e6c8d65f")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:R-EU_R0402")
+		(at 241.3 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d647e47-c7cb-49b5-98b4-cfe19429942d")
+		(property "Reference" "R3"
+			(at 237.49 125.5014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 237.49 130.302 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:R0402"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a154938b-be98-4afd-b2f7-6a7f17824f00")
+		)
+		(pin "2"
+			(uuid "dd633016-94d7-41a6-9303-b3a86b74b845")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 53.34 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "537a6e37-401a-4293-b115-f937b192d429")
+		(property "Reference" "#P+6"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 52.324 42.164 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea556c92-9b64-45f3-b233-81b4be436e04")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 91.44 40.64 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53f148ad-4a51-484a-b8fc-1dbd7f416728")
+		(property "Reference" "IC1"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "cc65de04-7abb-45ba-bad1-039c9c0b946e")
+		)
+		(pin "5"
+			(uuid "ec482703-bbd7-4a3c-8937-211e994cd0bd")
+		)
+		(pin "9"
+			(uuid "ed12a6d6-bd9b-4ca6-8e7d-fbf74c978fbf")
+		)
+		(pin "25"
+			(uuid "66699952-a971-4b6f-92e5-f8655249d7e5")
+		)
+		(pin "28"
+			(uuid "9a313975-4b60-42d0-a4a1-f8e9f0e4ff01")
+		)
+		(pin "22"
+			(uuid "a35224e6-7d82-4588-8a79-7acd4098ef70")
+		)
+		(pin "8"
+			(uuid "9a534381-92f7-4f75-b246-ebdbf1967f8e")
+		)
+		(pin "20"
+			(uuid "651e581d-2e9b-4bc3-9484-0038abf4631a")
+		)
+		(pin "21"
+			(uuid "13a183dc-7d0f-432d-8191-48336fa28391")
+		)
+		(pin "12"
+			(uuid "616ff0ff-fa6c-451d-8196-0e83601c9a6c")
+		)
+		(pin "13"
+			(uuid "d942a763-f412-4bab-81a5-5750e120277c")
+		)
+		(pin "23"
+			(uuid "7acc5114-ed28-4e1a-8dbf-c6dab6ad140d")
+		)
+		(pin "24"
+			(uuid "e27d84b6-501c-4df9-9c17-d20843625afe")
+		)
+		(pin "11"
+			(uuid "4b624436-c6e2-4381-9b24-929b7a732cfc")
+		)
+		(pin "14"
+			(uuid "b3f249d7-10d3-4502-a255-f430fc52ad38")
+		)
+		(pin "29"
+			(uuid "21c85218-bda6-482b-bde1-8bbc949ef569")
+		)
+		(pin "16"
+			(uuid "264ba431-625e-4e44-b2c5-cb71cc2915b4")
+		)
+		(pin "17"
+			(uuid "97ee8066-aefa-41a2-99d7-19311f9023b4")
+		)
+		(pin "7"
+			(uuid "8a3309e2-3409-4e6c-9b5e-210eb4e8dd5e")
+		)
+		(pin "6"
+			(uuid "782f17da-17b0-4580-a9a7-0e0751852c18")
+		)
+		(pin "15"
+			(uuid "328863c3-08c8-4f45-8fec-a43e20209669")
+		)
+		(pin "31"
+			(uuid "3bdb8d90-6385-4d25-9f66-ad0635e96587")
+		)
+		(pin "33"
+			(uuid "5aebd108-b9a2-48ef-8e99-6433fc23bb80")
+		)
+		(pin "2"
+			(uuid "d68c93f8-e827-46f2-9308-72401129dcfe")
+		)
+		(pin "34"
+			(uuid "f82d5b87-ca62-4e6d-aa0d-1d54ff053c5c")
+		)
+		(pin "3"
+			(uuid "85639973-151e-4ac2-a055-8767eebabfce")
+		)
+		(pin "30"
+			(uuid "f03a0f1f-272d-4ed6-bd15-f8e6c14eea49")
+		)
+		(pin "19"
+			(uuid "69579210-7591-47ab-8160-ddc58cbba8e2")
+		)
+		(pin "32"
+			(uuid "11c9eca5-cea9-4ace-afdd-77d44b5d0402")
+		)
+		(pin "1"
+			(uuid "5eaf6f07-41ae-4001-845b-0bbcfa277ad1")
+		)
+		(pin "26"
+			(uuid "08125f96-2014-4c4b-acf1-07c82a115bcf")
+		)
+		(pin "27"
+			(uuid "0ddf0dc9-3a1a-4731-a466-b5dc8510dc20")
+		)
+		(pin "18"
+			(uuid "ffde940b-fb38-4b52-ac11-bd456389670b")
+		)
+		(pin "4"
+			(uuid "f1bb7bb6-264a-4c68-a7f5-c7317fa2804d")
+		)
+		(pin "35"
+			(uuid "4a2e94fa-c72e-49fd-b020-ed1c4a369f0c")
+		)
+		(pin "36"
+			(uuid "8d26f363-430d-4761-bc0b-e65a0cc6f3cd")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:LEDCHIPLED_0603")
+		(at 251.46 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e2813b3-99ce-4bcb-b928-4edb2b1ba296")
+		(property "Reference" "LED1"
+			(at 256.032 103.124 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "red"
+			(at 256.032 100.965 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:CHIPLED_0603"
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "0c5d0af5-55f8-4b2c-80d9-ad7112210d5b")
+		)
+		(pin "C"
+			(uuid "8aa4f4fc-9421-4879-b312-146946be5b4f")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 38.1 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e2477b-de3b-419c-b813-72ee064754fc")
+		(property "Reference" "#GND6"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a07d6fe-af1f-4337-961d-09445619fa06")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:5V")
+		(at 162.56 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6438c4b9-8ddf-4e87-8ab3-41f41db790e1")
+		(property "Reference" "#U$4"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 161.544 52.324 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45a6496c-bddc-40f0-a0eb-a41eec51f192")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 88.9 104.14 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6532826f-708e-492f-9a20-6a1e6f7a1a1b")
+		(property "Reference" "IC1"
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "3eafcb87-7a33-4537-96a7-07a46f1490fe")
+		)
+		(pin "5"
+			(uuid "02e45f54-93ba-4561-bd8d-51cdecd9748c")
+		)
+		(pin "8"
+			(uuid "526b036f-2c62-41cb-be13-8a67331492cc")
+		)
+		(pin "20"
+			(uuid "ae78720d-9a20-4028-ad24-69d833ca0ffa")
+		)
+		(pin "21"
+			(uuid "bc5ff3d7-6934-4471-823d-d1136d1b0b7a")
+		)
+		(pin "25"
+			(uuid "246dcfda-dde8-48b1-b3ba-45bb91b6060d")
+		)
+		(pin "22"
+			(uuid "fa99824a-c137-4198-87b4-18d54dadbe4a")
+		)
+		(pin "24"
+			(uuid "4f7b0150-ef5d-46d6-8a7d-308492452901")
+		)
+		(pin "6"
+			(uuid "4f00bda0-8df7-40cd-b4a9-2fcef0b9acf8")
+		)
+		(pin "28"
+			(uuid "d3e0f993-52b5-4c6b-af4a-2d1ef7c9e0ad")
+		)
+		(pin "29"
+			(uuid "591deb92-721a-40fe-85d2-fc65dd2b27a8")
+		)
+		(pin "7"
+			(uuid "e246deb9-67b5-4c8e-9695-2f92d9f1b092")
+		)
+		(pin "10"
+			(uuid "51b51d22-59e4-4864-9a11-431e6f45f731")
+		)
+		(pin "9"
+			(uuid "4dbcb7f7-3fc5-423a-91c3-a50309b2055a")
+		)
+		(pin "34"
+			(uuid "4e9c781b-6af7-4b55-9c61-70486a13964a")
+		)
+		(pin "13"
+			(uuid "6f2a1bcb-2e32-45b4-878d-a2b6f129d171")
+		)
+		(pin "15"
+			(uuid "93361985-5de9-40fd-84d1-e7f64ce4b0a9")
+		)
+		(pin "19"
+			(uuid "cf3eb770-8390-4901-992c-d60b60402b17")
+		)
+		(pin "18"
+			(uuid "ea5c1cf9-f822-4ab7-bd27-de16bb50779c")
+		)
+		(pin "14"
+			(uuid "c84f38a3-0b3c-47d0-83d1-e605d98bac04")
+		)
+		(pin "31"
+			(uuid "22d0602c-0464-4167-bfdf-14867f91eaea")
+		)
+		(pin "36"
+			(uuid "4ad81fc6-a0ca-4389-ae0b-af9cf243013b")
+		)
+		(pin "12"
+			(uuid "cb99fadd-6559-4615-838d-5ca9fa961a7d")
+		)
+		(pin "33"
+			(uuid "05b663b7-0686-4f1e-a4ed-7f5e69a403f5")
+		)
+		(pin "30"
+			(uuid "280a8a8b-aaf5-40fe-a68e-b0c19652f5b9")
+		)
+		(pin "17"
+			(uuid "f2a4ad44-38ac-4294-bf7d-34af6d15bc81")
+		)
+		(pin "16"
+			(uuid "22596617-4910-4814-845d-8b1e617b450f")
+		)
+		(pin "3"
+			(uuid "bf86da39-f97f-43e0-9382-b15f32542fed")
+		)
+		(pin "1"
+			(uuid "12500170-c7ce-4942-96bb-7e7a4d611c80")
+		)
+		(pin "26"
+			(uuid "fd005edb-7d38-415f-b15c-e13f5bb77ff8")
+		)
+		(pin "4"
+			(uuid "f70c2b57-dfa5-4611-95c3-807e9a700119")
+		)
+		(pin "2"
+			(uuid "90041909-9983-471b-9708-88497531c2f0")
+		)
+		(pin "11"
+			(uuid "8e2edf35-e959-4ca3-a255-428384167cbe")
+		)
+		(pin "32"
+			(uuid "c7a92e96-66fb-483b-ba64-15ce85cad3df")
+		)
+		(pin "27"
+			(uuid "58d72bca-cce0-4cb3-a168-e42c46551ba1")
+		)
+		(pin "35"
+			(uuid "580def78-79cc-4d69-8f0a-6b45c03019b6")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 35.56 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66dec9f7-c56d-4805-98d5-4ea77c677edf")
+		(property "Reference" "#GND8"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 40.64 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c14762b-bfd9-4213-acd7-da40baebe58f")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 259.08 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aff5181-f5bf-4033-a014-4246d48875ee")
+		(property "Reference" "#P+2"
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 258.064 49.784 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5950fb6-4b07-4767-add5-681b575a81b9")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 109.22 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bdb0768-d65d-4700-899b-7fa2fedc6fe1")
+		(property "Reference" "#P+3"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 108.204 148.844 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b359fa0-7076-4efc-b1fd-9d00e1c2d901")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 50.8 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72ca8c45-f9fa-46ac-8f0e-8113d3d1cec1")
+		(property "Reference" "#GND5"
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 60.96 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48dc7e47-6d20-4eec-86ac-23b984a43ff9")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 40.64 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "777fa6b5-1158-44db-9603-28687ffb03e8")
+		(property "Reference" "#GND3"
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 134.62 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61b0fc8e-ae23-4df4-80a2-2f7e6004989a")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402")
+		(at 53.34 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c3c2295-06fc-4bad-b108-79ca9feec78f")
+		(property "Reference" "C8"
+			(at 54.864 169.799 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 54.864 174.879 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+			(at 53.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19845c05-4f99-4d11-8b5c-d104d99d93a0")
+		)
+		(pin "1"
+			(uuid "bb280a1a-e90a-4296-a4e2-924801fb7b80")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 259.08 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ce8c218-175e-49b2-a257-0ad0a4e853d2")
+		(property "Reference" "#GND12"
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d6660f9-579a-435b-bb81-b146e7389fbd")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0805")
+		(at 208.28 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f9cda7b-c633-486d-9b1f-547c061a7e71")
+		(property "Reference" "C1"
+			(at 209.804 63.119 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10u/10V"
+			(at 209.804 68.199 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0805"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efa29244-e4a2-493f-aa37-f19831389116")
+		)
+		(pin "1"
+			(uuid "89ec2f11-5118-4e25-a05a-d916deb996ea")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:LEDCHIPLED_0603")
+		(at 251.46 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80de9da0-6ffd-4915-bbf1-4632ba7d376c")
+		(property "Reference" "LED2"
+			(at 256.032 123.444 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "green"
+			(at 256.032 121.285 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:CHIPLED_0603"
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "bf477396-7bc7-4850-a772-a44a65d8661c")
+		)
+		(pin "A"
+			(uuid "521fd9e3-fb75-4132-82ce-2552bac68bd0")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 63.5 33.02 0)
+		(mirror y)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f24b7a1-5f51-4d42-9c36-40b4821c9f1c")
+		(property "Reference" "IC1"
+			(at 55.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 68.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "85c6f5c2-9327-4794-be3e-b5a980e3dae6")
+		)
+		(pin "5"
+			(uuid "970fa554-205e-4d08-b143-0c60ee9bd2d8")
+		)
+		(pin "22"
+			(uuid "30a4a7b8-dfd0-437c-96e2-c114208f3a24")
+		)
+		(pin "28"
+			(uuid "f111862b-50fd-4d5a-be6f-64593db515d3")
+		)
+		(pin "3"
+			(uuid "08e31bc2-624c-483e-9982-e07672f16546")
+		)
+		(pin "25"
+			(uuid "0d626f8f-35e4-4125-b491-924d6cb3b7bf")
+		)
+		(pin "34"
+			(uuid "08ca0e5d-c66d-4416-abbf-4822a1d810e6")
+		)
+		(pin "21"
+			(uuid "de35e2f5-0ddf-4449-b759-69c5190b1ba7")
+		)
+		(pin "11"
+			(uuid "054ee135-163a-4065-b611-4980a6593cd3")
+		)
+		(pin "23"
+			(uuid "3d59d253-d34a-4ca8-bbe9-61dae15299f1")
+		)
+		(pin "10"
+			(uuid "adbde4cc-7a61-429d-bcab-42c5bb15e674")
+		)
+		(pin "31"
+			(uuid "06e02b74-b0dc-46b5-b83c-2cf1435aacaf")
+		)
+		(pin "32"
+			(uuid "164dcaf1-ec58-4e0d-8789-af49ab8ecd03")
+		)
+		(pin "33"
+			(uuid "b26a06c0-bb76-4dd7-a173-7bbac084470b")
+		)
+		(pin "13"
+			(uuid "164256a3-fcce-4c02-8005-4f66118f89c2")
+		)
+		(pin "9"
+			(uuid "a7979de4-10a8-4443-83a5-6ceb6632c03a")
+		)
+		(pin "14"
+			(uuid "6c117083-c320-4a5b-b465-38d77361d5a0")
+		)
+		(pin "29"
+			(uuid "88323a56-5773-47ea-9ec5-0478cdaac86b")
+		)
+		(pin "8"
+			(uuid "3363c159-2106-42dc-9005-71960d19567e")
+		)
+		(pin "20"
+			(uuid "9cae6a9e-68ea-4c06-8b67-2ae7e601069e")
+		)
+		(pin "6"
+			(uuid "5939c700-9fe5-42b7-bee1-c5cd7da632e3")
+		)
+		(pin "12"
+			(uuid "ad30085c-acd6-4ccb-9d98-635ac210d72a")
+		)
+		(pin "15"
+			(uuid "8af05688-e3d2-4cca-9a9e-db9be78ff872")
+		)
+		(pin "24"
+			(uuid "2d84e71c-41c1-41e5-9e3a-d9df6fc862ac")
+		)
+		(pin "16"
+			(uuid "2cb0546d-c723-4117-9164-2b9e28901a99")
+		)
+		(pin "17"
+			(uuid "12c41911-6061-4348-a2ca-09f2a8df45e1")
+		)
+		(pin "30"
+			(uuid "9bf950a7-5462-4246-99b8-e374b82482a3")
+		)
+		(pin "2"
+			(uuid "5d3fc95c-0d1d-4b64-96c9-7ebef34d7e67")
+		)
+		(pin "19"
+			(uuid "6d0c6ac7-1080-477c-9730-a08ced31e1e6")
+		)
+		(pin "1"
+			(uuid "c5f2e06f-51ae-414b-ac8a-12e922bf8176")
+		)
+		(pin "27"
+			(uuid "c162b162-3b19-42b8-8827-d321210d146c")
+		)
+		(pin "18"
+			(uuid "d0bdac67-6bed-4797-8667-aed8e150d56d")
+		)
+		(pin "4"
+			(uuid "5ed537cd-5b46-4322-b373-8cd644d4b643")
+		)
+		(pin "26"
+			(uuid "b770c81f-1ac8-45e6-b486-f80cad8902df")
+		)
+		(pin "35"
+			(uuid "c204fcc7-a328-48a6-b2ad-62a6b94ab6d7")
+		)
+		(pin "36"
+			(uuid "e7fbb575-4a36-41e4-9d42-3270285f073a")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:R-EU_R0402")
+		(at 50.8 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9074e7ea-3ea6-40ea-9bff-d1caa77f4c72")
+		(property "Reference" "R1"
+			(at 49.3014 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 54.102 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:R0402"
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5246f312-859c-48ed-817f-02b3b3a095cd")
+		)
+		(pin "2"
+			(uuid "b3b5edc1-a9ae-47dd-92d7-ef40d0b9f211")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 38.1 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95004503-afa8-4dad-9a3a-003d5c8700ef")
+		(property "Reference" "#P+7"
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 37.084 57.404 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d1e430d-f154-406f-a19e-0390d3ff960d")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402")
+		(at 48.26 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96fc3d58-c512-4687-8077-8c2a5eed1f5d")
+		(property "Reference" "C5"
+			(at 49.784 75.819 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 49.784 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d76897b7-7e79-44bb-93b1-5c24daddf575")
+		)
+		(pin "1"
+			(uuid "306ffa1e-fbd1-4e03-8ee4-6600751e8cdf")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402")
+		(at 33.02 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b43e16-ce84-44ac-b83d-65b18aaf07b1")
+		(property "Reference" "C4"
+			(at 34.544 75.819 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 34.544 80.899 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e004ed0c-cc1e-4cbe-b0f7-fd3b2ae03cb3")
+		)
+		(pin "1"
+			(uuid "7e55d510-4211-4092-8dfc-275a4f1f9d79")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 76.2 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bc1dbce-570e-4520-b9d0-47bb35ac4797")
+		(property "Reference" "#P+8"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 75.184 148.844 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9733f899-3469-460e-9c01-bbbcfcfa4220")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:IMU3000QFN-24-0.4MIL")
+		(at 91.44 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a881451e-b3ec-4b78-af03-b3fe6349548e")
+		(property "Reference" "IC3"
+			(at 83.82 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MPU9250"
+			(at 83.82 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:QFN-24-3X3"
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66f72950-eb58-4f48-8067-fec7490c18de")
+		)
+		(pin "24"
+			(uuid "c92e3fcb-6fcb-4348-9cab-1405692a8b3a")
+		)
+		(pin "10"
+			(uuid "9bac29a2-92dd-45e6-9364-0a2c93955980")
+		)
+		(pin "20"
+			(uuid "e8040532-e722-4e60-883b-938951f725af")
+		)
+		(pin "7"
+			(uuid "b8269dd9-3f1a-4d23-ba0d-916ae133b35e")
+		)
+		(pin "11"
+			(uuid "0e4177cd-3d97-41ed-95c3-f1239241f63f")
+		)
+		(pin "22"
+			(uuid "368918b8-e459-48fc-8a77-9ebdc0ec5551")
+		)
+		(pin "9"
+			(uuid "d8b0b2ad-6d81-4f4b-9b2c-f97540607fe1")
+		)
+		(pin "6"
+			(uuid "bbf2828c-a716-44cd-bad3-81de01cf7119")
+		)
+		(pin "12"
+			(uuid "e0b600fe-ef9a-4c07-a26c-0908d1d585c8")
+		)
+		(pin "23"
+			(uuid "b7c0991f-d68a-46f6-a005-71d25be40f1c")
+		)
+		(pin "18"
+			(uuid "224d1b68-af2f-482a-9704-f9b5c8abad4a")
+		)
+		(pin "13"
+			(uuid "bfc4a163-311f-43f1-b2ad-64dee8ce1af5")
+		)
+		(pin "8"
+			(uuid "a6854884-0376-4539-aabf-492b8f1e25e2")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:R-EU_R0402")
+		(at 124.46 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae65619c-4350-4713-b153-1c67ba2f1ffd")
+		(property "Reference" "R5"
+			(at 122.9614 151.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 127.762 151.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:R0402"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02791534-8d51-4669-a8b5-2961177083c2")
+		)
+		(pin "1"
+			(uuid "4ab0fecd-c6b5-454d-882e-e9832dbebe83")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 76.2 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1d07cf1-8bfa-46f8-a97b-8c8014d1c7dd")
+		(property "Reference" "#GND25"
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 185.42 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c81e0a-6639-49d0-ba53-fdcdb00b0d6c")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:A4L-LOC")
+		(at 17.78 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be6cf8f8-6667-4833-8a6d-77e6a53aea02")
+		(property "Reference" "#FRAME1"
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ggg"
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#FRAME1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:?M04B-SRSS-TBS")
+		(at 172.72 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beeed35c-eb34-4ca0-a95e-fb31a8e00af0")
+		(property "Reference" "NT0"
+			(at 175.26 59.182 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NT"
+			(at 171.958 57.023 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SM04B-SRSS-TB"
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d35b1b1d-93af-4d77-92fb-3443d691f67a")
+		)
+		(pin "1"
+			(uuid "8f0b2832-6a63-4795-ae9c-59e25b5fc1c9")
+		)
+		(pin "2"
+			(uuid "4c87c8e4-aa9a-4cf2-8c8a-66efc398281f")
+		)
+		(pin "3"
+			(uuid "0cf04d6a-6c3a-440f-b607-c8fab50bd469")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "NT0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 208.28 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfe547df-17ac-45be-8f1b-55c87b7d6cc1")
+		(property "Reference" "#GND1"
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5742bd70-bd2a-4cdd-827c-19d7938fe48e")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 66.04 109.22 0)
+		(mirror y)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c413dcbc-9e50-48ac-9213-52b9fd2115d4")
+		(property "Reference" "IC1"
+			(at 60.96 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "24"
+			(uuid "3817d061-4753-4f3a-b183-53dd414cbe31")
+		)
+		(pin "6"
+			(uuid "398e7dd4-927e-41d7-8324-6c2dc943d55b")
+		)
+		(pin "5"
+			(uuid "e7803f50-aad5-4af3-add8-23aff21009ef")
+		)
+		(pin "9"
+			(uuid "5503402d-5b4c-43a9-bf38-4280506d055f")
+		)
+		(pin "20"
+			(uuid "0fb99eef-2359-4558-a5f4-a014abbd039c")
+		)
+		(pin "21"
+			(uuid "3753dd56-7f7a-4488-a2ce-5c578e7577eb")
+		)
+		(pin "22"
+			(uuid "148523ca-b6b4-4741-8866-d828324d3128")
+		)
+		(pin "23"
+			(uuid "f87d86b4-20dd-4d76-8235-becfebc6f305")
+		)
+		(pin "25"
+			(uuid "af375999-3311-4e30-b57e-f9acaad5396e")
+		)
+		(pin "28"
+			(uuid "0e4e6f9c-5298-406a-bf3c-c73bd1225baa")
+		)
+		(pin "7"
+			(uuid "18a501f3-f9ee-4422-a44a-3b86dbce1ffe")
+		)
+		(pin "8"
+			(uuid "a020e566-3ea7-41dc-9144-b7a44575ef12")
+		)
+		(pin "12"
+			(uuid "fd1347c4-7800-44c4-8cb2-eac7d9ab0d8d")
+		)
+		(pin "26"
+			(uuid "d73e1a11-8ecf-4be8-93a0-15f642baeea8")
+		)
+		(pin "36"
+			(uuid "b1bfcf76-5936-4050-b7e5-59b6fa8db7e2")
+		)
+		(pin "32"
+			(uuid "cedf5d69-d63b-4707-aa8f-1b3dfffebd8c")
+		)
+		(pin "2"
+			(uuid "f49ab563-7f15-4117-9d2d-df147525f97e")
+		)
+		(pin "30"
+			(uuid "12a9a9ad-694d-474d-a2b9-83fb844d4039")
+		)
+		(pin "29"
+			(uuid "46a94cdf-d0ee-464a-a608-ef7dfa30bc06")
+		)
+		(pin "16"
+			(uuid "bee2de3a-5573-4845-8aac-efdc848b1066")
+		)
+		(pin "13"
+			(uuid "732dbcbc-3a53-4200-acab-d82ea4109f1f")
+		)
+		(pin "17"
+			(uuid "c0b458c7-bf3d-4ca4-898d-30aa1bb4f118")
+		)
+		(pin "10"
+			(uuid "ee18ae08-349c-45f0-90d0-f0fdf6cb6271")
+		)
+		(pin "33"
+			(uuid "b041603a-c43e-4bb9-9cba-3d9d818f7318")
+		)
+		(pin "34"
+			(uuid "22eba980-faec-433d-b792-ddd8f56c2201")
+		)
+		(pin "3"
+			(uuid "ba9288e1-5695-413c-b9a5-2ff34ed52a2b")
+		)
+		(pin "27"
+			(uuid "d88777d7-39bc-4e10-9fe2-755f02a97f05")
+		)
+		(pin "31"
+			(uuid "8d50748a-a74e-4e13-baef-7aff17158359")
+		)
+		(pin "15"
+			(uuid "f9cdf0bb-affa-4e75-a911-cd52486b6266")
+		)
+		(pin "4"
+			(uuid "bc64e232-65c2-443e-99bd-13c99f0779ef")
+		)
+		(pin "35"
+			(uuid "77922d94-e328-438b-ac69-fa7b29220831")
+		)
+		(pin "11"
+			(uuid "cfc0c2df-e96f-44b1-80cc-3fb5d4fbed6f")
+		)
+		(pin "19"
+			(uuid "e69c4aa4-f881-45a3-81da-9c74e83a6466")
+		)
+		(pin "14"
+			(uuid "964b63cc-6a47-4661-9643-ab60c9d5be8d")
+		)
+		(pin "1"
+			(uuid "76c75fb3-dcd5-4ea0-86a8-84029a4896ee")
+		)
+		(pin "18"
+			(uuid "61fbc478-7df1-4e12-a349-374ee4ee91de")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:SOLDERJUMPERNO")
+		(at 132.08 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c42a9263-031e-4a9f-a83c-3c4c55b1a9be")
+		(property "Reference" "SJ3"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IMU-ID3"
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SJ_2S-NO"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21d16644-e86a-45c7-bce5-ab46f624249e")
+		)
+		(pin "1"
+			(uuid "7af32856-dc21-4ba0-a533-97bf89329401")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "SJ3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:STM32F10XTXU6")
+		(at 66.04 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5aa3a50-3cbb-4459-83d0-cb407f2686ad")
+		(property "Reference" "IC1"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "STM32F103T8"
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:VFQFPN36"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "29"
+			(uuid "45fcd874-1d17-49b0-ae46-5d79d044023c")
+		)
+		(pin "25"
+			(uuid "4f9c7cd9-7289-4131-bad8-613e6f43816e")
+		)
+		(pin "23"
+			(uuid "d7e10177-264e-426b-9366-2853a52c17f9")
+		)
+		(pin "14"
+			(uuid "9a9f42f6-9fb8-4f79-9186-99e6dc4e940e")
+		)
+		(pin "20"
+			(uuid "c16adae0-34af-4233-9b79-abac38018ae3")
+		)
+		(pin "17"
+			(uuid "c682cc20-517f-4214-92e5-305555002f34")
+		)
+		(pin "30"
+			(uuid "43bdbca1-df79-4ac9-9f25-348b0cd7e09c")
+		)
+		(pin "31"
+			(uuid "eae8b727-7fae-49ac-8dd1-93d0bbcf782e")
+		)
+		(pin "5"
+			(uuid "6c0bcdb6-fe4d-40f4-883b-261a00a3e5d1")
+		)
+		(pin "32"
+			(uuid "6045af90-3f62-469d-93dc-45e6f3f8d09e")
+		)
+		(pin "6"
+			(uuid "1381fcd4-629d-47a5-aec2-fb2fba391d25")
+		)
+		(pin "21"
+			(uuid "58ce1605-9548-4939-9b37-95f36a5360bd")
+		)
+		(pin "22"
+			(uuid "92356669-33a2-4ce6-aeb8-695634abf8cd")
+		)
+		(pin "24"
+			(uuid "a40a3b41-dd6b-40bd-a091-2d49eff44e14")
+		)
+		(pin "28"
+			(uuid "4940f562-b4d9-4c4c-afd5-ef1c64957a53")
+		)
+		(pin "11"
+			(uuid "a5d68c8e-5464-4945-8eee-12cbdfd3a27d")
+		)
+		(pin "13"
+			(uuid "d06e9f77-b98f-4cf6-9175-fba6dc075745")
+		)
+		(pin "8"
+			(uuid "00773626-a02d-46b5-8eba-723ac9e2a767")
+		)
+		(pin "9"
+			(uuid "ca851c1d-6281-4bfa-b41b-7538db565e88")
+		)
+		(pin "7"
+			(uuid "6203da9d-2ac7-43d3-ac69-47d415dccfc0")
+		)
+		(pin "10"
+			(uuid "7325511c-0624-4d66-8eca-46bd15815ae0")
+		)
+		(pin "12"
+			(uuid "0fcdb1cf-9af9-49dc-850f-a482cbc7f078")
+		)
+		(pin "15"
+			(uuid "478a4ce8-0cf4-4d0c-aae8-bf09cb303c5d")
+		)
+		(pin "16"
+			(uuid "5f15ac2d-23a1-4abe-b840-b564c9d52f63")
+		)
+		(pin "34"
+			(uuid "900ec375-b87d-4b91-94ae-398c561895b2")
+		)
+		(pin "27"
+			(uuid "b531a889-aa0d-4a3f-9fd0-8fe2b71a6228")
+		)
+		(pin "4"
+			(uuid "1b1446f4-adbe-48bc-be34-9356c8e3c1c8")
+		)
+		(pin "26"
+			(uuid "a5abbd9d-c0be-4d6c-8e7d-0cffe92c5e40")
+		)
+		(pin "1"
+			(uuid "259a909a-f661-40cf-9b56-244b1c2179cb")
+		)
+		(pin "33"
+			(uuid "9a27ecd6-ec86-446c-9120-5bc670997c53")
+		)
+		(pin "35"
+			(uuid "9ae8867e-f7ae-47d9-a5af-7d0fc49dfac6")
+		)
+		(pin "2"
+			(uuid "b30e9204-289a-4a35-8204-f1b0745ac8d3")
+		)
+		(pin "19"
+			(uuid "48c0bb57-ce00-4979-8f15-cb19f1e50912")
+		)
+		(pin "18"
+			(uuid "dec7df79-5152-4fcc-9918-4274240109b4")
+		)
+		(pin "3"
+			(uuid "b208a388-f967-4a37-a8da-e29eb6f6579f")
+		)
+		(pin "36"
+			(uuid "89771004-f317-47dd-bc7e-b26e85c838ad")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 111.76 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8e5bb74-844f-46e7-a39a-c08e75101a72")
+		(property "Reference" "#GND2"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ee853b3-783d-4be5-b43c-22608e60d6f1")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:?M04B-SRSS-TBS")
+		(at 172.72 60.96 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4dc99b1-9b20-4e2b-b69c-0405377e959c")
+		(property "Reference" "NT0"
+			(at 175.26 61.722 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NT"
+			(at 171.958 59.563 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SM04B-SRSS-TB"
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82084a86-707b-4afb-91cb-a2cb4a7b87e9")
+		)
+		(pin "4"
+			(uuid "659976fb-f085-46f2-ad35-23033fc1cc8e")
+		)
+		(pin "1"
+			(uuid "7046aff4-2537-419b-9220-af09a8bb48eb")
+		)
+		(pin "3"
+			(uuid "06e124aa-b535-43f8-b539-455d3f424cd4")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "NT0")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 165.1 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4fcfffa-d955-49ec-9a92-44451818eb74")
+		(property "Reference" "#GND33"
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b62ac170-274b-48dc-a389-bfe2d2345f80")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:?M04B-SRSS-TBS")
+		(at 172.72 66.04 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d705e3cd-ea60-4328-8ba3-6a454267eec6")
+		(property "Reference" "NT0"
+			(at 175.26 66.802 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "NT"
+			(at 171.958 64.643 0)
+			(effects
+				(font
+					(size 1.524 1.2954)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SM04B-SRSS-TB"
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d41a24dd-af96-479a-8d88-ae2f2be7a18f")
+		)
+		(pin "1"
+			(uuid "f42efb2e-f377-407e-a426-70f0168898a8")
+		)
+		(pin "2"
+			(uuid "af71f737-f3db-4be8-9374-ef93b5193144")
+		)
+		(pin "4"
+			(uuid "6bf70d29-4be0-48a8-bae0-189ba79ab98f")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "NT0")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:RESONATORSMD")
+		(at 48.26 33.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d993e53e-5b1f-4c6a-8418-fec09b0e22c0")
+		(property "Reference" "Q1"
+			(at 49.276 35.56 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CSTCE8M00G55-R0"
+			(at 27.94 27.94 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:RESONATOR-SMD"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "405c6dfb-70ef-4713-b1df-04a9bf2bd7c4")
+		)
+		(pin "2"
+			(uuid "ea53ff25-1fd4-4988-b2f0-121ecc631b3b")
+		)
+		(pin "3"
+			(uuid "cd657db4-670d-4633-b8d2-b405e97caa4c")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:SOLDERJUMPERNO")
+		(at 43.18 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbe53538-1efd-482e-b73c-02cc05037a7b")
+		(property "Reference" "SJ1"
+			(at 40.64 99.06 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BOOT0"
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SJ_2S-NO"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84bfa883-2461-4a35-a9d4-8013f48e4e34")
+		)
+		(pin "1"
+			(uuid "82bf876c-4fd5-4703-bb31-dc9390de9ee5")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:GND")
+		(at 104.14 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "def4334a-d683-4ab9-ac85-b3c62396e98e")
+		(property "Reference" "#GND9"
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70564921-3b1a-4f08-aab5-e9a20dfb0e09")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:3.3V")
+		(at 124.46 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5ef0393-03d3-4443-9922-89149e9a067d")
+		(property "Reference" "#P+4"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 123.444 136.144 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "445f1df9-cc00-4f11-927f-61828975501b")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "#P+4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402")
+		(at 45.72 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb67a84f-eae5-4579-ba94-1968f66f298a")
+		(property "Reference" "C7"
+			(at 47.244 169.799 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 47.244 174.879 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fae2f32-87f9-4c56-a099-c893bf3fe465")
+		)
+		(pin "2"
+			(uuid "e3bca6cb-6525-4ba1-a553-14a60614fbf0")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402")
+		(at 40.64 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec664f4a-1cbc-4609-9b56-98057a1e0a31")
+		(property "Reference" "C3"
+			(at 42.164 111.379 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 42.164 116.459 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b3d474-7b0a-440a-b910-75dd42532a89")
+		)
+		(pin "2"
+			(uuid "1b1e0b7f-8e53-42d5-bbc8-2efa75e346d2")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:C-EUC0402")
+		(at 35.56 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f577fc02-e0a7-4d29-bbe1-2cb834a3e6db")
+		(property "Reference" "C6"
+			(at 37.084 169.799 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 37.084 174.879 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:C0402"
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf6d0117-c33f-4177-8604-20f812bc84f0")
+		)
+		(pin "2"
+			(uuid "084acf1e-832b-49ac-a82e-2bee3eab50d4")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "STorM32 NT imu v211 mini-mpu9250-eagle-import:V_REG_TPS76433SOT23-5")
+		(at 241.3 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5985c46-5447-4666-ac5b-cc4474ef61f2")
+		(property "Reference" "IC2"
+			(at 236.22 46.736 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TC1015-3.3VCT713"
+			(at 228.854 49.022 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "STorM32 NT imu v211 mini-mpu9250:SOT23-5"
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11802f0f-b814-4d13-b0dd-8300ba63d14c")
+		)
+		(pin "3"
+			(uuid "97ee80c8-ffb9-4ea3-97ce-922e251ebd67")
+		)
+		(pin "4"
+			(uuid "119586a6-5250-4221-b0dd-20d022a06d72")
+		)
+		(pin "5"
+			(uuid "c39b132f-2294-4d8a-bbd1-1e4cb1b81a6c")
+		)
+		(pin "2"
+			(uuid "ea55ec17-1fb5-473c-ae11-57246d079397")
+		)
+		(instances
+			(project ""
+				(path "/9324c07e-2cf2-408a-9d64-56cf12707d2c"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
